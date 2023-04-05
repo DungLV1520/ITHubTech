@@ -2390,12 +2390,6 @@ Clients Area CSS
 =================================================*/
 .clients-section {
   &.bg-background {
-    background: {
-      image: url(../../assets/img/clients-bg.jpg);
-      position: center center;
-      size: cover;
-      repeat: no-repeat;
-    }
     .section-title {
       h2 {
         color: $white-color;
@@ -3134,12 +3128,6 @@ Work Area CSS
 }
 .work-image {
   height: 100%;
-  background: {
-    image: url(../../assets/img/work-bg.jpg);
-    size: cover;
-    position: center center;
-    repeat: no-repeat;
-  }
   img {
     display: none;
   }
@@ -3530,12 +3518,6 @@ Skill Area CSS
 .skills-image {
   width: 100%;
   height: 600px;
-  background: {
-    image: url(../../assets/img/skills.jpg);
-    position: center center;
-    size: cover;
-    repeat: no-repeat;
-  }
   img {
     display: none;
   }
@@ -3780,18 +3762,6 @@ Solutions Area CSS
       margin-bottom: 0;
       font-size: 14px;
     }
-  }
-}
-.solutions-image {
-  height: 100%;
-  background: {
-    image: url(../../assets/img/solutions.png);
-    size: cover;
-    position: center center;
-    repeat: no-repeat;
-  }
-  img {
-    display: none;
   }
 }
 
@@ -4332,13 +4302,6 @@ Subscribe Area CSS
 .subscribe-inner-area {
   position: relative;
   z-index: 1;
-  background: {
-    image: url(../../assets/img/subscribe-bg.jpg);
-    position: center center;
-    size: cover;
-    repeat: no-repeat;
-    attachment: fixed;
-  }
   &::after {
     content: "";
     position: absolute;

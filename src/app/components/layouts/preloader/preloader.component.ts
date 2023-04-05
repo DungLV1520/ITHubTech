@@ -1,15 +1,12 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit } from "@angular/core";
 
 @Component({
-  selector: 'app-preloader',
-  templateUrl: './preloader.component.html',
-  styleUrls: ['./preloader.component.scss']
+  selector: "app-preloader",
+  templateUrl: "./preloader.component.html",
+  styleUrls: ["./preloader.component.scss"],
 })
 export class PreloaderComponent implements OnInit {
+  constructor() {}
 
-  constructor() { }
-
-  ngOnInit(): void {
-  }
-
+  ngOnInit(): void {}
 }

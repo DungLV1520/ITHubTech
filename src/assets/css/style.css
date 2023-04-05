@@ -2581,15 +2581,7 @@ Projects Area CSS
   width: 100%;
 }
 
-/*================================================
-Clients Area CSS
-=================================================*/
-.clients-section.bg-background {
-  background-image: url(../../assets/img/clients-bg.jpg);
-  background-position: center center;
-  background-size: cover;
-  background-repeat: no-repeat;
-}
+
 
 .clients-section.bg-background .section-title h2 {
   color: #ffffff;
@@ -3350,14 +3342,7 @@ Work Area CSS
   margin: 0 0 0 0;
 }
 
-.work-image {
-  background-image: url(../../assets/img/work-bg.jpg);
-  background-size: cover;
-  background-position: center center;
-  background-repeat: no-repeat;
-  width: 100%;
-  height: 500px;
-}
+
 
 .work-image img {
   display: none;
@@ -3749,14 +3734,7 @@ Skill Area CSS
   overflow: hidden;
 }
 
-.skills-image {
-  background-image: url(../../assets/img/skills.jpg);
-  background-position: center center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  width: 100%;
-  height: 600px;
-}
+
 
 .skills-image img {
   display: none;
@@ -4027,14 +4005,7 @@ Solutions Area CSS
   font-size: 14px;
 }
 
-.solutions-image {
-  background-image: url(../../assets/img/solutions.png);
-  background-size: cover;
-  background-position: center center;
-  background-repeat: no-repeat;
-  width: 100%;
-  height: 700px;
-}
+
 
 .solutions-image img {
   display: none;
@@ -4574,18 +4545,6 @@ Review Area CSS
   font-size: 25px;
 }
 
-/*================================================
-Subscribe Area CSS
-=================================================*/
-.subscribe-inner-area {
-  position: relative;
-  z-index: 1;
-  background-image: url(../../assets/img/subscribe-bg.jpg);
-  background-position: center center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-}
 
 .subscribe-inner-area::after {
   content: '';
