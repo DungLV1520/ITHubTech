@@ -21,6 +21,8 @@ import { TermsConditionsComponent } from "./components/pages/terms-conditions/te
 import { PrivacyPolicyComponent } from "./components/pages/privacy-policy/privacy-policy.component";
 import { ErrorComponent } from "./components/pages/error/error.component";
 import { ComingSoonComponent } from "./components/pages/coming-soon/coming-soon.component";
+import { AngularFireModule } from "@angular/fire/compat";
+import { environment } from "../environments/environment";
 
 @NgModule({
   declarations: [
@@ -45,7 +47,11 @@ import { ComingSoonComponent } from "./components/pages/coming-soon/coming-soon.
     ErrorComponent,
     ComingSoonComponent,
   ],
-  imports: [BrowserModule, AppRoutingModule],
+  imports: [
+    BrowserModule,
+    AppRoutingModule,
+    AngularFireModule.initializeApp(environment.firebase),
+  ],
   providers: [],
   bootstrap: [AppComponent],
 })
