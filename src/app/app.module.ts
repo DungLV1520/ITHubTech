@@ -23,6 +23,7 @@ import { ErrorComponent } from "./components/pages/error/error.component";
 import { ComingSoonComponent } from "./components/pages/coming-soon/coming-soon.component";
 import { AngularFireModule } from "@angular/fire/compat";
 import { environment } from "../environments/environment";
+import { HttpClientModule } from "@angular/common/http";
 
 @NgModule({
   declarations: [
@@ -50,6 +51,7 @@ import { environment } from "../environments/environment";
   imports: [
     BrowserModule,
     AppRoutingModule,
+    HttpClientModule,
     AngularFireModule.initializeApp(environment.firebase),
   ],
   providers: [],
