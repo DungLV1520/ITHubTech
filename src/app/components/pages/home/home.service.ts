@@ -3,7 +3,7 @@ import { Injectable } from "@angular/core";
 
 @Injectable({ providedIn: "root" })
 export class HomeService {
-  GlobalComponent = "https://ulink.asia/api/google/ithub/log";
+  GlobalComponent = "https://ulink.asia/api/google/ithub8808/log";
 
   constructor(private http: HttpClient) {}
 
