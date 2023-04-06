@@ -8,12 +8,8 @@ import { HomeOneComponent } from "./components/pages/home/home.component";
 import { NavbarOneComponent } from "./components/layouts/navbar/navbar.component";
 import { AboutComponent } from "./components/pages/about/about.component";
 import { ServicesTwoComponent } from "./components/pages/services/services.component";
-import { ServicesDetailsComponent } from "./components/pages/services-details/services-details.component";
 import { ProjectsOneComponent } from "./components/pages/projects/projects.component";
-import { ProjectsDetailsComponent } from "./components/pages/projects-details/projects-details.component";
 import { ContactComponent } from "./components/pages/contact/contact.component";
-import { BlogGridComponent } from "./components/pages/blog-grid/blog-grid.component";
-import { BlogDetailsComponent } from "./components/pages/blog-details/blog-details.component";
 import { PricingComponent } from "./components/pages/pricing/pricing.component";
 import { TeamComponent } from "./components/pages/team/team.component";
 import { FaqComponent } from "./components/pages/faq/faq.component";
@@ -34,12 +30,8 @@ import { HttpClientModule } from "@angular/common/http";
     NavbarOneComponent,
     AboutComponent,
     ServicesTwoComponent,
-    ServicesDetailsComponent,
     ProjectsOneComponent,
-    ProjectsDetailsComponent,
     ContactComponent,
-    BlogGridComponent,
-    BlogDetailsComponent,
     PricingComponent,
     TeamComponent,
     FaqComponent,
