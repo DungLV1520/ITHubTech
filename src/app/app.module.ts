@@ -10,11 +10,7 @@ import { AboutComponent } from "./components/pages/about/about.component";
 import { ServicesTwoComponent } from "./components/pages/services/services.component";
 import { ProjectsOneComponent } from "./components/pages/projects/projects.component";
 import { ContactComponent } from "./components/pages/contact/contact.component";
-import { PricingComponent } from "./components/pages/pricing/pricing.component";
-import { TeamComponent } from "./components/pages/team/team.component";
 import { FaqComponent } from "./components/pages/faq/faq.component";
-import { TermsConditionsComponent } from "./components/pages/terms-conditions/terms-conditions.component";
-import { PrivacyPolicyComponent } from "./components/pages/privacy-policy/privacy-policy.component";
 import { ErrorComponent } from "./components/pages/error/error.component";
 import { ComingSoonComponent } from "./components/pages/coming-soon/coming-soon.component";
 import { AngularFireModule } from "@angular/fire/compat";
@@ -32,11 +28,7 @@ import { HttpClientModule } from "@angular/common/http";
     ServicesTwoComponent,
     ProjectsOneComponent,
     ContactComponent,
-    PricingComponent,
-    TeamComponent,
     FaqComponent,
-    TermsConditionsComponent,
-    PrivacyPolicyComponent,
     ErrorComponent,
     ComingSoonComponent,
   ],
