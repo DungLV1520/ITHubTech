@@ -1,7 +1,7 @@
 {
   "projects": {
-    "default": "ithub-bybit",
-    "ithub-bybit": "ithub-bybit"
+    "ithub-1": "ithub-1",
+    "default": "ithub-1"
   },
   "targets": {},
   "etags": {}
