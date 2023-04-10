@@ -1,0 +1,8 @@
+{
+  "projects": {
+    "ithub-bybit": "ithub-bybit",
+    "default": "ithub-bybit"
+  },
+  "targets": {},
+  "etags": {}
+}
