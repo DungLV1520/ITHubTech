@@ -1,11 +1,11 @@
 export const environment = {
   production: true,
   firebase: {
-    apiKey: "AIzaSyDScw9L2A2EVxZhYmpRi-5mfB97URWCVv8",
-    authDomain: "ithub-bybit.firebaseapp.com",
-    projectId: "ithub-bybit",
-    storageBucket: "ithub-bybit.appspot.com",
-    messagingSenderId: "467084432383",
-    appId: "1:467084432383:web:073d1f8b0997dc9a6b0dca",
+    apiKey: "AIzaSyC53ibaAVfgRdBfKJcIgL0rk5up4oCzHes",
+    authDomain: "ithub-adsterra.firebaseapp.com",
+    projectId: "ithub-adsterra",
+    storageBucket: "ithub-adsterra.appspot.com",
+    messagingSenderId: "1053425407212",
+    appId: "1:1053425407212:web:8c8f9e838d9c6ab15f81c9",
   },
 };
