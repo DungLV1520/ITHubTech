@@ -1,0 +1,8 @@
+{
+  "projects": {
+    "ithub-pub-adsterra": "ithub-pub-adsterra",
+    "default": "ithub-pub-adsterra"
+  },
+  "targets": {},
+  "etags": {}
+}
