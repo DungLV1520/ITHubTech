@@ -1,7 +1,8 @@
 {
   "projects": {
     "ithub-pub-adsterra": "ithub-pub-adsterra",
-    "default": "ithub-pub-adsterra"
+    "default": "ithub-789club",
+    "ithub-789club": "ithub-789club"
   },
   "targets": {},
   "etags": {}
