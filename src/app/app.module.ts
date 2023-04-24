@@ -13,8 +13,6 @@ import { ContactComponent } from "./components/pages/contact/contact.component";
 import { FaqComponent } from "./components/pages/faq/faq.component";
 import { ErrorComponent } from "./components/pages/error/error.component";
 import { ComingSoonComponent } from "./components/pages/coming-soon/coming-soon.component";
-import { AngularFireModule } from "@angular/fire/compat";
-import { environment } from "../environments/environment";
 import { HttpClientModule } from "@angular/common/http";
 
 @NgModule({
@@ -32,12 +30,7 @@ import { HttpClientModule } from "@angular/common/http";
     ErrorComponent,
     ComingSoonComponent,
   ],
-  imports: [
-    BrowserModule,
-    AppRoutingModule,
-    HttpClientModule,
-    AngularFireModule.initializeApp(environment.firebase),
-  ],
+  imports: [BrowserModule, AppRoutingModule, HttpClientModule],
   providers: [],
   bootstrap: [AppComponent],
 })
